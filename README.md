@@ -1,6 +1,8 @@
 # ToVoteOrNotToVote
 Project for Introduction to Neuro-Economics (CG4.402) 
 
+![logo](./logo.png)
+
 ## Problem Statement
 Behavioural Insights into Voter Turnout and Electoral Participation
 
@@ -23,3 +25,5 @@ Sativika Miryala
 ### Professor:
 Kavita Vemuri
 
+
+shared docs link : https://docs.google.com/document/d/1vVrsJBam620mNK4NxdRgmdIZSaYYbxTCB5HZaB07wNc
