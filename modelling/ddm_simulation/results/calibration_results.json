@@ -1,0 +1,25 @@
+{
+  "calibration": {
+    "success": true,
+    "final_loss": 0.07011903999999997,
+    "iterations": 1,
+    "simulated_turnout": 0.9996,
+    "target_turnout": 0.7345,
+    "absolute_error": 0.2651
+  },
+  "validation": {
+    "scenario": "Shravasti, Uttar Pradesh (2019)",
+    "simulated_turnout": 0.9496,
+    "target_turnout": 0.5253,
+    "absolute_error": 0.4243,
+    "relative_error": 0.8077289168094423
+  },
+  "parameters": {
+    "drift_rate_base": 0.028685033990384856,
+    "threshold_base": 0.5369722230270522,
+    "beta_D": 0.11287779708317702,
+    "beta_H": 0.16325964081278077,
+    "beta_S": 0.03314240018374756,
+    "beta_C": -0.19421817332045016
+  }
+}

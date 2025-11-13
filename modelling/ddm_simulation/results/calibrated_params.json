@@ -1,0 +1,25 @@
+{
+  "drift_rate_base": 0.028685033990384856,
+  "threshold_base": 0.5369722230270522,
+  "sigma_base": 0.2,
+  "drift_components": {
+    "beta_D": 0.11287779708317702,
+    "beta_PI": 0.12,
+    "beta_IS": 0.1,
+    "beta_S": 0.03314240018374756,
+    "beta_H": 0.16325964081278077,
+    "beta_C": -0.19421817332045016,
+    "beta_EC": 0.08,
+    "beta_OC": 0.05
+  },
+  "threshold_modifiers": {
+    "gamma_risk": 0.4,
+    "gamma_edu": 0.3,
+    "gamma_OC": 0.2
+  },
+  "starting_point_biases": {
+    "alpha_H": 0.25,
+    "alpha_PI": 0.1,
+    "alpha_D": 0.1
+  }
+}

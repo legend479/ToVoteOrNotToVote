@@ -1,0 +1,37 @@
+
+DATASET OVERVIEW
+----------------
+Initial responses: 72
+Final responses (after removal): 72
+Responses flagged for removal: 0
+
+COMPLETENESS
+------------
+Complete responses: 60
+Mostly complete (>75%): 11
+Partial (50-75%): 1
+Minimal (<50%): 0
+
+DATA QUALITY ISSUES
+-------------------
+Out-of-range values corrected: 0
+Possible straightlining: 1
+Potential duplicates (flagged, not removed): 0
+Suspicious timing: 3
+
+DEMOGRAPHIC DATA
+----------------
+Missing all demographics: 0
+
+OPEN RESPONSES
+--------------
+Substantive responses: 54
+
+RECOMMENDATION
+--------------
+• Keep all responses except completely empty ones (no survey data at all)
+• Duplicates are FLAGGED but NOT removed - keep all responses
+• Use 'response_quality' for stratified analysis
+• Use 'quality_flags' to identify potential issues
+• Consider sensitivity analysis excluding 'STRAIGHTLINING' or 'DUPLICATE' responses
+• Report sample sizes clearly in all analyses
