@@ -1,0 +1,195 @@
+python3 comprehensive_analysis.py 
+Voter Motivation Survey - Comprehensive Analysis
+============================================================
+
+Enter path to your numeric CSV file: survey_responses_numeric.csv
+
+🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
+COMPREHENSIVE VOTER SURVEY ANALYSIS
+🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯🎯
+
+Dataset: 72 responses
+Analysis output directory: voter_analysis_plots
+
+============================================================
+CREATING COMPOSITE SCORES FOR MODEL VARIABLES
+============================================================
+
+Composite Scores Created:
+  civic_duty_score: N=69, Mean=4.29, SD=1.02
+  social_pressure_score: N=72, Mean=3.40, SD=1.17
+  habit_score: N=70, Mean=3.23, SD=1.73
+  cost_score: N=72, Mean=2.54, SD=0.97
+  benefit_score: N=70, Mean=4.24, SD=0.70
+  trust_score: N=71, Mean=3.49, SD=0.86
+  engagement_score: N=72, Mean=3.83, SD=0.72
+  voting_utility: N=66, Mean=2.81, SD=0.72
+
+============================================================
+GENERATING INDIVIDUAL QUESTION DISTRIBUTIONS
+============================================================
+✓ Saved: voter_analysis_plots/individual_distributions.png
+
+============================================================
+CORRELATION ANALYSIS
+============================================================
+✓ Saved: voter_analysis_plots/correlation_heatmap.png
+
+🔍 Strong Correlations (|r| > 0.4):
+  Emotional Connection ↔ Civic Duty: r=0.544
+  Voting History ↔ Effort Trade-off: r=0.450
+  Voting History ↔ Perceived Impact: r=0.598
+  Voting History ↔ Emotional Reward: r=0.415
+  Voting History ↔ Trust in System: r=0.426
+  Voting History ↔ Electoral Competitiveness: r=0.417
+  Effort Trade-off ↔ Perceived Impact: r=0.635
+  Effort Trade-off ↔ Emotional Reward: r=0.403
+  Emotional Reward ↔ Trust in System: r=0.469
+
+============================================================
+MODEL COMPONENT CORRELATIONS
+============================================================
+Based on Extended Rational Choice Model: U(vote) = pB - C + D + S + H
+✓ Saved: voter_analysis_plots/model_components_correlation.png
+
+📊 Key Model Relationships:
+  Civic Duty → Voting Utility: r=0.380, p=0.0016 (N=66)
+  Habit → Voting Utility: r=0.830, p=0.0000 (N=66)
+  Cost → Voting Utility: r=-0.508, p=0.0000 (N=66)
+  Benefit → Voting Utility: r=0.730, p=0.0000 (N=66)
+
+============================================================
+CREATING SUMMARY VISUALIZATIONS
+============================================================
+✓ Saved: voter_analysis_plots/summary_visualizations.png
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+ANALYSIS COMPLETE!
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+All plots saved to: voter_analysis_plots/
+
+Generated visualizations:
+  ✓ individual_distributions.png
+  ✓ correlation_heatmap.png
+  ✓ model_components_correlation.png
+  ✓ summary_visualizations.png
+
+📊 Ready for model calibration!
+
+🎉 Success! Check voter_analysis_plots/ folder for results
+miryalasathvika@Miryalas-MacBook-Air survery_analysis % python3 hypothesis_testing.py 
+Neuroeconomics Hypothesis Testing (Robust Version)
+============================================================
+
+Enter path to your CSV file: survey_responses_numeric.csv
+⚠ Composite scores not found. Creating them...
+
+🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬
+NEUROECONOMICS HYPOTHESIS TESTING
+🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬🔬
+
+Dataset: 72 responses
+
+============================================================
+HYPOTHESIS 1: CIVIC DUTY AS PREDICTOR
+============================================================
+Extended RC Model predicts: D (civic duty) → U(vote)
+
+Correlation: r = 0.380, p = 0.0016 (N = 66)
+✓ SIGNIFICANT: Civic duty positively predicts voting utility
+Effect size (r²): 0.145 (14.5% variance explained)
+
+============================================================
+HYPOTHESIS 2: HABIT FORMATION (H component)
+============================================================
+RL Model: Past behavior → Habit strength → Current utility
+
+Habit → Engagement: r = 0.831, p = 0.0000 (N = 70)
+✓ SIGNIFICANT: Stronger habits associate with higher engagement
+
+Age Group Analysis:
+  18-24: r = 0.831, p = 0.0000 (N = 70)
+  35-44: r = 0.831, p = 0.0000 (N = 70)
+  45-54: r = 0.831, p = 0.0000 (N = 70)
+
+============================================================
+HYPOTHESIS 3 & 4: COST-BENEFIT TRADEOFF
+============================================================
+RC Model: U(vote) = pB - C + ...
+
+Cost → Utility: r=-0.508, p=0.0000 (N=66)
+✓ CONFIRMED: Higher costs → Lower utility (as predicted)
+
+Benefit → Utility: r=0.730, p=0.0000 (N=66)
+✓ CONFIRMED: Higher benefits → Higher utility (as predicted)
+
+============================================================
+HYPOTHESIS 5: SOCIAL INFLUENCE (S component)
+============================================================
+Tests susceptibility to social nudges
+
+Social Pressure → Utility: r = 0.531, p = 0.0000 (N = 66)
+
+High Social Pressure (M=3.09, N=30) vs
+Low Social Pressure (M=2.58, N=36)
+t-test: t = 3.06, p = 0.0033
+✓ SIGNIFICANT: Social pressure affects voting utility
+
+============================================================
+HYPOTHESIS 6: TRUST AS MODERATOR
+============================================================
+DDM: Trust affects decision threshold
+
+Trust → Utility: r = 0.312, p = 0.0107 (N = 66)
+
+Civic Duty → Utility relationship:
+  High Trust: r = -0.051, p = 0.8112 (N = 24)
+  Low Trust: r = 0.533, p = 0.0003 (N = 42)
+  → No clear moderation effect
+
+============================================================
+HYPOTHESIS 7: ELECTORAL COMPETITIVENESS (p in pB)
+============================================================
+
+Competitiveness → Utility: r=-0.509, p=0.0000 (N=66)
+(Note: Reverse coded - negative r means competitive → higher utility)
+✓ CONFIRMED: More competitive elections → Higher voting utility
+
+============================================================
+HYPOTHESIS 8: INCENTIVE PREFERENCES BY ARCHETYPE
+============================================================
+
+Incentive Distribution by Engagement Level:
+q13_incentive  1.0  2.0  3.0  4.0  5.0
+Low              8    2    0    6    8
+Medium           3    2    2   12    3
+High             3    5    0   10    5
+
+χ² test: χ² = 13.86, p = 0.0855
+✗ NOT SIGNIFICANT
+
+============================================================
+HYPOTHESIS TESTING SUMMARY
+============================================================
+
+✓ Saved: hypothesis_tests/hypothesis_summary.png
+
+✅ Hypothesis testing complete!
+
+📊 Summary of Results:
+  H1: Civic Duty: p=0.0016 ✓ Significant
+  H2: Habit Formation: p=0.0000 ✓ Significant
+  H3: Cost (negative): p=0.0000 ✓ Significant
+  H4: Benefit (positive): p=0.0000 ✓ Significant
+  H5: Social Influence: p=0.0000 ✓ Significant
+  H6: Trust Moderation: p=0.0107 ✓ Significant
+  H7: Competitiveness: p=0.0000 ✓ Significant
+  H8: Incentive Variance: p=0.0855 ⚠ Marginal
+
+🎯 Next steps:
+  1. Use confirmed relationships for model calibration
+  2. Focus on significant predictors in simulations
+  3. Design nudges targeting validated mechanisms
+
+🎉 Success! Check hypothesis_tests/ folder for results
