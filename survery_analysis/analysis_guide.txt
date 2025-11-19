@@ -367,5 +367,3 @@ Your analysis will provide:
 - Design targeted nudges
 - Validate theoretical assumptions
 - Simulate realistic voter behavior
-
-Good luck with your research! 🗳️🔬
