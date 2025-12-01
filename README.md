@@ -26,4 +26,64 @@ Sativika Miryala
 Kavita Vemuri
 
 
-shared docs link : https://docs.google.com/document/d/1vVrsJBam620mNK4NxdRgmdIZSaYYbxTCB5HZaB07wNc
+## Links: 
+- [Project Presentation](./presentation.pdf)
+- [Project Report](./docs/Project%20Proposal.pdf)
+- [Survey Questionnaire](https://vote-mind-map.lovable.app/)
+- [Survey Data Dashboard](https://vote-mind-map.lovable.app/dashboard)
+- [Agent Based Election Simulation](https://agentic-election-simulator-118267798784.us-west1.run.app/)
+
+## Repository Structure
+```
+.
+├── README.md
+├── docs
+│   ├── Project Execution Plan.pdf
+│   ├── Project Hypothesis and Nudges Ledger.pdf
+│   ├── Project Literature Review.pdf
+│   ├── Project Proposal.pdf
+│   ├── Project Simulation Seup Report.pdf
+│   ├── Project Voter Survey Report.pdf
+│   ├── hypothesis_nudges.md
+│   └── initial_form.md
+├── literature_review
+│   ├── Candidate Features Influencing Voter Turnout.pdf
+│   ├── Determinants of Voter Turnout and Vote Choice_ A Multidisciplinary Review.pdf
+│   ├── Voter Turnout_ A Multidisciplinary Review.pdf
+│   ├── determinants_of_voter_turnout.md
+│   ├── references
+│   │   ├── 18.02.015-20160102.pdf
+│   │   ├── FactorsInfluencingVotingBehaviour:AComprehensive Literature Review.pdf
+│   │   ├── JBEP-6-S1-7.pdf
+│   │   ├── Measuring_the _strength_of_voter_turnout_habit.md
+│   │   ├── Paradox of Not Voting A Decision Theorectic Analysis.pdf
+│   │   ├── bryan-et-al-2011-motivating-voter-turnout-by-invoking-the-self.pdf
+│   │   ├── ssrn-4969540.pdf
+│   │   └── what-affects-voter-turnout-a-review-articlemeta-analysis-of-aggregate-research.pdf
+│   └── summaries_papers.md
+├── logo.png
+└── survery_analysis
+    ├── analysis_guide.txt
+    ├── clean_data.py
+    ├── comprehensive_analysis.py
+    ├── convert_numeric.py
+    ├── fix_survey_data.py
+    ├── hypothesis_testing.py
+    ├── results
+    │   ├── analysis.md
+    │   ├── hypothesis_tests
+    │   │   └── hypothesis_summary.png
+    │   ├── output.txt
+    │   └── voter_analysis_plots
+    │       ├── correlation_heatmap.png
+    │       ├── demographic_analysis.png
+    │       ├── individual_distributions.png
+    │       ├── model_components_correlation.png
+    │       └── summary_visualizations.png
+    ├── run_complete_cleaning.py
+    ├── survey_questions.md
+    ├── survey_responses.csv
+    ├── survey_responses_cleaned.csv
+    ├── survey_responses_cleaned_report.txt
+    └── survey_responses_numeric.csv
+```
